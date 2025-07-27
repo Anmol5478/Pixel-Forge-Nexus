@@ -1,0 +1,97 @@
+/* Custom styles for PixelForge Nexus */
+
+/* Button styles */
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.2s;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.btn-secondary {
+  background-color: #f3f4f6;
+  color: #111827;
+  border-color: #d1d5db;
+}
+
+.btn-secondary:hover {
+  background-color: #e5e7eb;
+  border-color: #9ca3af;
+}
+
+.btn-danger {
+  background-color: #dc2626;
+  color: white;
+  border-color: #dc2626;
+}
+
+.btn-danger:hover {
+  background-color: #b91c1c;
+  border-color: #b91c1c;
+}
+
+/* Input styles */
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  outline: none;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.input:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+/* Card styles */
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
