@@ -32,7 +32,7 @@ A comprehensive project management system designed for game development teams, f
 ### Backend
 - **Node.js** - JavaScript runtime
 - **Express.js** - Web application framework
-- **SQLite** - Lightweight database
+- **MongoDB** - Lightweight database
 - **JWT** - JSON Web Tokens for authentication
 - **bcryptjs** - Password hashing
 - **Multer** - File upload handling

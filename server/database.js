@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import User from './models/User.js';
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/pixelforge_nexus';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://Cluster78078:Engineerbro1@anmol.patrcbj.mongodb.net/?retryWrites=true&w=majority&appName=Anmol';
 
 export async function connectDatabase() {
   try {
