@@ -1,0 +1,40 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="24" cy="24" r="22" fill="url(#gradient)" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Pixel grid representing projects -->
+  <g transform="translate(12, 12)">
+    <!-- Top row -->
+    <rect x="0" y="0" width="4" height="4" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="6" y="0" width="4" height="4" fill="#FFFFFF" opacity="0.7"/>
+    <rect x="12" y="0" width="4" height="4" fill="#FFFFFF" opacity="0.8"/>
+    
+    <!-- Middle row -->
+    <rect x="0" y="6" width="4" height="4" fill="#FFFFFF" opacity="0.6"/>
+    <rect x="6" y="6" width="4" height="4" fill="#FFFFFF" opacity="1"/>
+    <rect x="12" y="6" width="4" height="4" fill="#FFFFFF" opacity="0.5"/>
+    
+    <!-- Bottom row -->
+    <rect x="0" y="12" width="4" height="4" fill="#FFFFFF" opacity="0.8"/>
+    <rect x="6" y="12" width="4" height="4" fill="#FFFFFF" opacity="0.6"/>
+    <rect x="12" y="12" width="4" height="4" fill="#FFFFFF" opacity="0.9"/>
+  </g>
+  
+  <!-- Connection lines representing team collaboration -->
+  <path d="M 8 16 L 16 24 L 24 16" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.8"/>
+  <path d="M 24 16 L 32 24 L 40 16" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.8"/>
+  <path d="M 16 24 L 24 32 L 32 24" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.8"/>
+  
+  <!-- Central nexus point -->
+  <circle cx="24" cy="24" r="3" fill="#FFFFFF"/>
+  <circle cx="24" cy="24" r="1.5" fill="#3B82F6"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60A5FA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg> 

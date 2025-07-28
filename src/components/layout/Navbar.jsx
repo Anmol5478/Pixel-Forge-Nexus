@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { 
-  Home, 
   Users, 
   User, 
   LogOut, 
@@ -36,10 +35,8 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/dashboard" className="flex items-center space-x-2">
-              <div className="h-8 w-8 bg-primary-600 rounded-lg flex items-center justify-center">
-                <Home className="h-5 w-5 text-white" />
-              </div>
+            <Link to="/dashboard" className="flex items-center space-x-3">
+              <img src="/logo.svg" alt="PixelForge Nexus" className="h-8 w-8" />
               <span className="text-xl font-bold text-gray-900">PixelForge Nexus</span>
             </Link>
           </div>

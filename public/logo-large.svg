@@ -1,0 +1,53 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo icon -->
+  <g transform="translate(0, 0)">
+    <!-- Background circle -->
+    <circle cx="20" cy="20" r="18" fill="url(#gradient)" stroke="#3B82F6" stroke-width="1.5"/>
+    
+    <!-- Pixel grid representing projects -->
+    <g transform="translate(10, 10)">
+      <!-- Top row -->
+      <rect x="0" y="0" width="3" height="3" fill="#FFFFFF" opacity="0.9"/>
+      <rect x="5" y="0" width="3" height="3" fill="#FFFFFF" opacity="0.7"/>
+      <rect x="10" y="0" width="3" height="3" fill="#FFFFFF" opacity="0.8"/>
+      
+      <!-- Middle row -->
+      <rect x="0" y="5" width="3" height="3" fill="#FFFFFF" opacity="0.6"/>
+      <rect x="5" y="5" width="3" height="3" fill="#FFFFFF" opacity="1"/>
+      <rect x="10" y="5" width="3" height="3" fill="#FFFFFF" opacity="0.5"/>
+      
+      <!-- Bottom row -->
+      <rect x="0" y="10" width="3" height="3" fill="#FFFFFF" opacity="0.8"/>
+      <rect x="5" y="10" width="3" height="3" fill="#FFFFFF" opacity="0.6"/>
+      <rect x="10" y="10" width="3" height="3" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+    
+    <!-- Connection lines representing team collaboration -->
+    <path d="M 7 13 L 13 20 L 20 13" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.8"/>
+    <path d="M 20 13 L 27 20 L 33 13" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.8"/>
+    <path d="M 13 20 L 20 27 L 27 20" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.8"/>
+    
+    <!-- Central nexus point -->
+    <circle cx="20" cy="20" r="2.5" fill="#FFFFFF"/>
+    <circle cx="20" cy="20" r="1.2" fill="#3B82F6"/>
+  </g>
+  
+  <!-- Text: PixelForge -->
+  <text x="45" y="18" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1F2937">
+    PixelForge
+  </text>
+  
+  <!-- Text: Nexus -->
+  <text x="45" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#6B7280">
+    Nexus
+  </text>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60A5FA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg> 
