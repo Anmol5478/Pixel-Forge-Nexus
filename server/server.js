@@ -62,6 +62,11 @@ connectDatabase().then(() => {
   console.log('Database connected successfully');
 });
 
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'OK', timestamp: new Date().toISOString() });
+});
+
 // Authentication routes
 app.post('/api/auth/login', async (req, res) => {
   try {
